@@ -3,13 +3,13 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIALS_ID = 'dockerhub_credentials' // replace with your Docker Hub credentials ID
-        DOCKER_IMAGE_NAME = 'your-dockerhub-username/jenkins25' // replace with your Docker Hub username
+        DOCKER_IMAGE_NAME = 'nandesh25/jenkins25' // replace with your Docker Hub username
     }
 
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-github-username/your-repo-name.git'
+                git 'https://github.com/Nandesh2386/gitjenkinsintegration25.git'
             }
         }
         
