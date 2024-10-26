@@ -32,3 +32,6 @@ pipeline {
         }
     }
 }
+git branch: 'main',
+    url: 'https://github.com/Nandesh2386/gitjenkinsintegration25.git',
+    credentialsId: '7eb9a6a1-0688-4931-beab-ddc25bebd485' // Replace with your actual credentials ID
