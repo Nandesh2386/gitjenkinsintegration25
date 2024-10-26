@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_CREDENTIALS_ID = 'dockerhub_credentials' // replace with your Docker Hub credentials ID
+        DOCKER_CREDENTIALS_ID = '7eb9a6a1-0688-4931-beab-ddc25bebd485' // replace with your Docker Hub credentials ID
         DOCKER_IMAGE_NAME = 'nandesh25/jenkins25' // replace with your Docker Hub username
     }
 
